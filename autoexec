@@ -134,11 +134,11 @@ mat_phong 0
 // ============================================================================
 // Gibs ----------------------------
 // ---------------------------------
-cl_phys_props_enable 0
-cl_phys_props_max 0
-props_break_max_pieces 0
-r_propsmadist 1
-cl_burninggibs 0
+	cl_phys_props_enable 0
+	cl_phys_props_max 0
+	props_break_max_pieces 0
+	r_propsmadist 1
+	cl_burninggibs 0
 // ============================================================================
 
 
@@ -146,8 +146,8 @@ cl_burninggibs 0
 // ============================================================================
 // Distance ------------------------
 // ---------------------------------
-r_lod 2
-lod_transitiondist -1
+	r_lod 2
+	lod_transitiondist -1
 // ============================================================================
 
 
@@ -155,7 +155,7 @@ lod_transitiondist -1
 // ============================================================================
 // VSYNC ---------------------------
 // ---------------------------------
-mat_vsync 0
+	mat_vsync 0
 // ============================================================================
 
 
@@ -163,7 +163,7 @@ mat_vsync 0
 // ============================================================================
 // DX Level ------------------------
 // ---------------------------------
-mat_dxlevel 90
+	mat_dxlevel 90
 // ---------------------------------
 // You can also place "-dxlevel 90" in your Launch Options
 // ============================================================================
@@ -173,16 +173,16 @@ mat_dxlevel 90
 // ============================================================================
 // Others -------------------------
 // ---------------------------------
-mat_mipmaptextures 0
-fps_max 120
-tf_simple_disguise_menu 1
-tf_particles_disable_weather 1
-cl_showfps 0
-tf_quest_map_tuner_wobble_magnitude 0
-tf_item_inspect_model_auto_spin 0
-tf_dashboard_slide_time 0
-mat_max_worldmesh_vertices 512
-r_fastzreject -1
+	mat_mipmaptextures 0
+	fps_max 120
+	tf_simple_disguise_menu 1
+	tf_particles_disable_weather 1
+	cl_showfps 0
+	tf_quest_map_tuner_wobble_magnitude 0
+	tf_item_inspect_model_auto_spin 0
+	tf_dashboard_slide_time 0
+	mat_max_worldmesh_vertices 512
+	r_fastzreject -1
 // ============================================================================
 
 
@@ -190,14 +190,14 @@ r_fastzreject -1
 // ============================================================================
 // Ragdolls and "Gibs" -------------
 // ---------------------------------
-g_ragdoll_fadespeed 50
-g_ragdoll_lvfadespeed 10
-ragdoll_sleepaftertime 4
-cl_ragdoll_fade_time 4
-cl_ragdoll_forcefade 0
-cl_ragdoll_physics_enable 1
-violence_agibs 0
-violence_hgibs 0
+	g_ragdoll_fadespeed 50
+	g_ragdoll_lvfadespeed 10
+	ragdoll_sleepaftertime 4
+	cl_ragdoll_fade_time 4
+	cl_ragdoll_forcefade 0
+	cl_ragdoll_physics_enable 1
+	violence_agibs 0
+	violence_hgibs 0
 // ---------------------------------
 // It will make ragdolls despawn faster
 // ============================================================================
@@ -207,11 +207,11 @@ violence_hgibs 0
 // ============================================================================
 // Mouse Settings -----------------
 // ---------------------------------
-m_rawinput 1
-m_filter 0
-m_customaccel 0
-m_mouseaccel1 0
-m_mouseaccel2 0
+	m_rawinput 1
+	m_filter 0
+	m_customaccel 0
+	m_mouseaccel1 0
+	m_mouseaccel2 0
 // ============================================================================
 
 
@@ -254,6 +254,7 @@ r_threaded_particles 1
 r_threaded_client_shadow_manager 1
 mat_queue_mode 2
 studio_queue_mode 1
+tf_scoreboard_mouse_mode 2 //Lets you select names on the tab menu via right click to perform functions
 // ============================================================================
 
 
