@@ -1,0 +1,384 @@
+// ---------------------------------
+// ----- DAReaperKid autoexec ------
+// ---------------------------------
+
+// Basically a toaster cfg. Disables some things, but has an increased fps overall.
+// Not all computers would have the same results.
+// As of now, few FPS stutters are somehow still occurring. Still finding a line of code that does not make the game stutter (not lag-related).
+
+// ============================================================================
+	exec truebind
+// ---------------------------------
+// It will execute the minor binds in that config.
+// It will add chat binds to your keypad.
+// ============================================================================
+
+
+
+// ============================================================================
+// Advanced Video Settings ---------
+// ---------------------------------
+	r_rootlod 2																	
+	r_waterforceexpensive 0														
+	r_shadowrendertotexture 0													
+	mat_picmip 1
+	mat_reducefillrate 1
+	mat_antialias 0
+	mat_aaquality 0
+	mat_forceaniso 0
+	mat_trilinear 0
+	mat_monitorgamma 2.0 // Will only work in fullscreen.
+	mat_hdr_level 0
+	mat_colorcorrection 0
+	mat_motion_blur_enabled 0
+// ---------------------------------
+// This part goes to the advanced video settings in the options then video.
+// This is not in the advanced options.
+// ============================================================================
+
+
+
+// ============================================================================
+// Graphics ------------------------
+// ---------------------------------
+r_ drawdetailprops 0
+cl_detaildist 0
+cl_detailfade 0
+cl_new_impact_effects 0
+r_rimlight 0
+cl_cloud_settings 0
+mat_mipmaptextures 0
+mat_disable_bloom 1		
+mat_colcorrection_disableentities 1
+dsp_water 3
+cl_drawmonitors 0
+cl_ejectbrass 0
+cl_show_splashes 0
+func_break_max_pieces 0
+glow_outline_effect_enable 0 //No glow from CTF and Payload
+mat_disable_fancy_blending 1
+mat_disable_lightwarp 1
+mat_envmapsize 8
+mat_envmaptgasize 8
+mat_filterlightmaps 0
+mat_filtertextures 0
+mat_reduceparticles 1
+mat_specular 1
+mat_wateroverlaysize 1
+r_3dsky 0
+r_ambientboost 0
+r_ambientfactor 0
+r_ambientmin 0
+r_avglight 0
+r_cheapwaterend 1
+r_cheapwaterstart 1;
+tracer_extra 0;
+violence_ablood 0;
+violence_hblood 0;
+r_waterdrawreflection 0;
+r_waterdrawrefraction 1;
+r_waterforcereflectentities 0;
+rope_averagelight 0;
+rope_collide 0;
+rope_rendersolid 0;
+rope_shake 0;
+rope_smooth 0;
+rope_subdiv 0;
+rope_wind_dist 0;
+r_decalstaticprops 0;
+r_decal_cullsize 15;
+r_drawdetailprops 0;
+r_drawmodeldecals 1;
+r_drawflecks 0;
+r_dynamic 0;
+r_flashlightdepthtexture 0;
+r_forcewaterleaf 1;
+r_lightaverage 0;
+r_maxnewsamples 2;
+r_maxsampledist 1;
+r_renderoverlayfragment 0;
+mat_viewportscale 1;
+mat_phong 0;
+// ============================================================================
+
+
+// ============================================================================
+// Glow after Respawn---------------
+// ---------------------------------
+	tf_enable_glows_after_respawn 1;
+// ---------------------------------
+// It won't glow in CTF and Payload.
+// This is helpful for those people who just respawned and wanted to find their first Spy victim.
+// It will only show the health and names since there's a graphics part.
+// ============================================================================
+
+
+
+// ============================================================================
+// Decals --------------------------
+// ---------------------------------
+	mp_decals 40;
+	r_decals 40;
+// ---------------------------------
+// Decals includes sprays and bullet holes. Set it to zero and one bullet hole will remain while sprays will entirely be removed.
+// ============================================================================
+
+
+// ============================================================================
+// Shadow -------------------------
+// ---------------------------------
+	r_shadows 0;
+	mat_shadowstate 0;
+	r_shadowmaxrendered 0;
+	nb_shadow_dist 0 ;
+// ============================================================================
+
+
+// Gibs
+cl_phys_props_enable 0;
+cl_phys_props_max 0;
+props_break_max_pieces 0;
+r_propsmadist 1;
+cl_burninggibs 0;
+
+
+
+// Distance
+r_lod 2;
+lod_transitiondist -1;
+
+// VSYNC
+mat_vsync 0;
+
+// DX Level
+mat_dxlevel 89;
+
+// Others
+mat_mipmaptextures 0;
+fps_max 0;
+tf_simple_disguise_menu 1;
+tf_particles_disable_weather 1;
+cl_showfps 0;
+tf_quest_map_tuner_wobble_magnitude 0;
+tf_item_inspect_model_auto_spin 0;
+tf_dashboard_slide_time 0;
+mat_max_worldmesh_vertices 1024;
+r_fastzreject -1;
+cl_threaded_bone_setup 0;
+cl_threaded_client_leaf_system 0; // DO NOT ENABLE, cause crashes to desktop within 4-5 minutes of gameplay 4/18 2014
+r_queued_decals 0
+r_queued_ropes 1;
+r_queued_post_processing 0;
+r_threaded_client_shadow_manager 1;
+r_threaded_particles 1;
+r_threaded_renderables 1;
+cl_forcepreload 1;
+tf_hud_target_id_show_avatars 0;
+snd_cull_duplicates 2;
+gl_mtglflush_at_tof 0;
+hud_freezecamhide 1;
+tf_chat_popup_hold_time 0;
+tf_colorblindassist 0;
+sv_alternateticks 0;
+m_limitedcapture_workaround 0;
+cl_notifications_max_num_visible 1;
+cl_notifications_move_time 0;
+cl_notifications_show_ingame 1;
+con_drawnotify 0;
+tf_notifications_push_bottom 1;
+cl_vote_ui_show_notification 0;
+con_nprint_bgalpha 255;
+con_nprint_bgborder 0;
+r_glint_procedural 1;
+r_occludeemaxarea 10;
+r_occludermincount 0;
+prop_active_gib_limit 0;
+props_break_max_pieces_perframe 0;
+cl_muzzleflash_dlight_1st 0;
+mat_bumpmap 0;
+ai_expression_optimization 1;
+
+// Ragdolls and Gibs
+g_ragdoll_fadespeed 50;
+g_ragdoll_lvfadespeed 10;
+ragdoll_sleepaftertime 4;
+cl_ragdoll_fade_time 4;
+cl_ragdoll_forcefade 0;
+cl_ragdoll_physics_enable 1;
+violence_agibs 0;
+violence_hgibs 0;
+cl_phys_props_enable 0;
+cl_phys_props_max 0;
+props_break_max_pieces 0;
+r_propsmadist 1;
+cl_burninggibs 0;
+
+// Mouse Settings
+m_rawinput 1;
+m_filter 0;
+m_customaccel 0;
+m_mouseaccel1 0;
+m_mouseaccel2 0;
+zoom_sensitivity_ratio 0.7934714;
+// ============================================================================
+// Gameplay and HUD Preferences
+mem_compact;
+hud_fastswitch 1
+snd_restart
+alias game_override_once none
+fov_desired 90
+tf_use_min_viewmodels 0
+viewmodel_fov 75
+viewmodel_fov_demo 65
+cl_hud_minmode 0
+cl_autoreload 1
+cl_hud_playerclass_use_playermodel 1
+cl_spec_carrieditems 0;
+r_drawtracers_firstperson 0
+bind kp_slash "cl_first_person_uses_world_model 0"
+bind kp_minus "cl_first_person_uses_world_model 1"
+hud_combattext 0
+hud_deathnotice_time 5;
+hud_combattext_batching 1
+hud_combattext 1
+hud_saytext_time 10;
+hud_medicautocallers 1
+hud_medicautocallersthreshold 50
+cl_autorezoom 1
+cl_mvm_wave_status_visible_during_wave 0;
+cl_crosshair_file default; cl_crosshair_scale 10"
+cl_crosshair_blue 0
+cl_crosshair_green 255
+cl_crosshair_red 0
+cl_crosshair_scale 25
+cl_threaded_client_leaf_system 1
+r_threaded_renderables 1
+r_threaded_particles 1
+r_threaded_client_shadow_manager 1
+mat_queue_mode -1
+studio_queue_mode 1
+tf_scoreboard_mouse_mode 0
+//tf_scoreboard_mouse_mode 2  //Lets you select names on the tab menu via right click to perform functions
+voice_enable 1;
+hud_achievement_glowtime 1;
+hud_achievement_count 2;
+tf_scoreboard_ping_as_text 1;
+// ============================================================================
+
+
+
+// ============================================================================
+// Connection and Ping -------------
+// ---------------------------------
+	rate 35000;
+	cl_cmdrate 40;
+	cl_updaterate 40; 
+	cl_interp_ratio 2; 
+	cl_interp 0; 
+	cl_smooth 0; 
+	cl_smoothtime 0.01;
+	cl_pred_optimize 2;
+	cl_lagcompensation 1;
+	sv_region 4;
+	tf_mm_custom_ping_enabled 1;
+	tf_mm_custom_ping 80;
+	net_splitrate 1;
+// ---------------------------------
+// Bad Connection Type
+// Good Connection Type can be searched online
+// ============================================================================
+
+
+
+// ============================================================================
+// Facial Features -----------------
+// ---------------------------------
+	r_eyes 1;
+	blink_duration 0;
+	flex_rules 1;
+	r_flex 0;
+	r_teeth 0; // Disabled since face joints won't move while saying voicelines or getting hurt.
+	cl_jiggle_bone_framerate_cutoff 0; 
+	r_eyeshift_x 0;
+	r_eyeshift_y 0;
+	r_eyeshift_z 0;
+	r_eyemove 0;
+// ============================================================================
+
+
+
+// ============================================================================
+//From mastercomfig ----------------
+// ---------------------------------
+	tf_time_loading_item_panels 0.000001;
+// ---------------------------------
+// Take a long time to load item panels
+// ============================================================================
+
+
+
+// ============================================================================
+// No-Tutorial ---------------------
+// ---------------------------------
+	tf_explanations_backpackpanel "1"
+	tf_explanations_charinfo_armory_panel "1"
+	tf_explanations_charinfopanel "1"
+	tf_explanations_craftingpanel "1"
+	tf_explanations_discardpanel "1"
+	tf_explanations_store "1"
+	tf_training_has_prompted_for_forums "1"
+	tf_training_has_prompted_for_loadout "1"
+	tf_training_has_prompted_for_offline_practice "1"
+	tf_training_has_prompted_for_options "1"
+	tf_training_has_prompted_for_training "1"
+// ============================================================================
+
+
+
+// ============================================================================
+//	The Villians Vidya ------------- https://www.youtube.com/watch?v=dIgt2ZRxNRM
+// ---------------------------------
+	cl_loadondemand_default 0
+	r_norefresh 1
+// ---------------------------------
+// I really don't know what this is but I guess it helped.
+// ============================================================================
+
+
+
+// ============================================================================
+//	Swindlesween -------------
+// ---------------------------------
+	mat_fullbright 1
+	muzzleflash_light 0
+// ---------------------------------
+// Makes TF2 crappier.
+// ============================================================================
+
+
+
+
+// ============================================================================
+// Sounds-------------------------------
+// -------------------------------------
+snd_async_fullyasync 1;
+dsp_slow_cpu 1;
+snd_async_fullyasync 1; 
+snd_pitchquality 0;
+snd_spatialize_roundrobin 1;
+	// ---------------------------------
+	// Hit Sounds ----------------------
+	// ---------------------------------
+		tf_dingalingaling 1
+		tf_dingaling_volume "0.30"
+		tf_dingaling_pitchmindmg 100
+		tf_dingaling_pitchmaxdmg 100
+
+	// ---------------------------------
+	// Kill Sounds ---------------------
+	// ---------------------------------
+		tf_dingalingaling_lasthit 1
+		tf_dingaling_lasthit_volume "0.25"
+		tf_dingaling_lasthit_pitchmindmg 100
+		tf_dingaling_lasthit_pitchmaxdmg 100
+// ============================================================================
